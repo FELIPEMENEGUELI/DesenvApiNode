@@ -2,7 +2,7 @@ import express from 'express'
 
 const server = express()
 
-server.get('/', (_, res) => {
+server.get('/user', (_, res) => {
   return res.send('Hello')
 })
 
